@@ -43,11 +43,17 @@ footer {
 
 /* otros */
 
-.slick-carousel {
-	margin: 47px auto;
-	width: 844px
-	border: 10px solid #7aa44a;
+#slider { 
+position: relative;
+overflow: hidden;
+width: 824px; 
+height: 468px; 
+border:10px solid #7aa44a;
+border-radius: 40px;
+margin: 0 auto;
+padding: 0;
 }
+
 
 /* The width of each slide */
 .slick-slide {
@@ -70,7 +76,7 @@ footer {
 	display: inline-block;
 }
 .carousel-control .fa-angle-left{
-	left: 50%;
+	left: 100%;
 	width: 42px;
     height: 42px;
     margin-top: 0px;

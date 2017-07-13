@@ -19,69 +19,19 @@ ul {
 	margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Great Vibes', cursive;
-}
 h1 {
 	font-size: 3rem;
+	font-family: 'Great Vibes', cursive;
 }
 
-.lead {
-	max-width: 660px;
-	margin: 2em auto 1em;
-	font-size: 120%;
-}
-
-input, select {
-	width: 100%;
-	border-radius: 3px;
-	border: 1px solid #f1f1f1;
-	line-height: 120%;
-	padding: 1%;
-	font-size: 120%;
-	transition: .5s ease all;
-	background: rgba(255,255,255,.9);
-}
-input::placeholder {
-	color: gray;
-}
-.btn {
-	display: block;
-	text-align: center;
-	font-weight: 800;
-	cursor: pointer;
-	color: #6730EC;
-	background-color: transparent;
-	letter-spacing: 1px;
-	font-size: 90%;
-	padding: 1em 1.5em;
-	transition: .5s ease all;
-	margin: 2em auto 1em;
-	border: 1px solid #6730EC;
-	width: 100%;
-}
-.btn:hover, .btn:active, .btn:focus {
-	background-color: #552cb9;
-	transition: .5s ease all;
-	color: #fff;
-}
-p {
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	display: block;
-	margin: 1em 0;
-	line-height: 1.4;
-	text-align: justify;
-}
 span {
 	border-bottom: 2px #6730EC solid;
 	font-weight: 700;
 }
-b {
-	font-weight: 800;
-	color: #6730EC;
-}
+
 small {
-	font-size: .8rem;
+	font-size: 1rem;
+	color: whitesmoke;
 }
 footer {
 	display: block;
@@ -90,24 +40,8 @@ footer {
 	padding: 0 0 2em;
 	overflow: hidden;
 }
-/*INPUT CHECK*/
-input[type|=check] {
-	display: inline-block;
-	width: auto;
-}
-label[for|=check] {
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
-	font-weight: normal;
-	display: inline-block;
-}
-/* INPUT NUMBER SIN FLECHAS */
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-	-webkit-appearance: none; 
-	margin: 0; 
-}
 
-/* Especial */
+/* otros */
 
 .slick-carousel {
 	margin: 47px auto;
@@ -123,4 +57,35 @@ input[type=number]::-webkit-outer-spin-button {
 /* Color of the arrows */
 .slick-next::before, .slick-prev::before {
 	color: #7aa44a;
+}
+
+.fa{
+	font-size: 17px;
+}
+
+.carousel-control .fa-angle-right, .carousel-control .fa-angle-left {
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+	display: inline-block;
+}
+.carousel-control .fa-angle-left{
+	left: 50%;
+	width: 42px;
+    height: 42px;
+    margin-top: 0px;
+    font-size: 31px;
+    color: #7aa44a;
+    border: 4px solid #7aa44a;
+    border-radius: 53px;
+}
+.carousel-control .fa-angle-right{
+	right: 100%;
+	width: 42px;
+    height: 42px;
+    margin-top: 0px;
+    font-size: 31px;
+    color: #7aa44a;
+    border: 4px solid #7aa44a;
+    border-radius: 53px;
 }
